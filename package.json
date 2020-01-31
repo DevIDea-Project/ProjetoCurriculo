@@ -1,0 +1,26 @@
+{
+  "name": "desafio-academia-node-ficr",
+  "version": "1.0.0",
+  "description": "Projeto Accenture",
+  "main": "index.js",
+  "repository": "https://github.com/mizamelo/desafio-academia-node-ficr.git",
+  "author": "Bruno Vinicius Felix Da Silva <brunoviniciustica@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.40.0",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.8.10",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.0"
+  }
+}
