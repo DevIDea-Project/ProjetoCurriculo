@@ -32,7 +32,7 @@ class CurriculoController {
 
             const profile = {
                 facebook: {
-                    nome: login,
+                    nome: "Bruno",
                     data_nascimento: birthday,
                     endereço: location.name,
                     genero: gender === "male" ? "masculino" : "feminino",
