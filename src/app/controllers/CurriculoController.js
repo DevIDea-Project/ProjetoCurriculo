@@ -31,7 +31,7 @@ class CurriculoController {
             });
 
             const profile = {
-                facebook: {
+                "Curriculo Vitae" : {
                     nome: "Bruno",
                     data_nascimento: birthday,
                     endereço: location.name,
@@ -44,10 +44,7 @@ class CurriculoController {
                 },
                 github: {
                     perfil: html_url,
-                    alguns_repositorios: {
-                        qtdRepo
-                        //ApiGitRep 
-                    }
+                    alguns_repositorios: qtdRepo
                 }
             };
             return res.json(profile);
