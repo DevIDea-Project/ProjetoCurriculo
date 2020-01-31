@@ -16,12 +16,12 @@ class CurriculoController {
             const { bio, avatar_url, html_url } = ApiGitUser.data;
             
             const result = ApiGitRep.data.map(repo => {
-                let i = {
+                let Repositorios = {
                     size: repo.size,
                     name: repo.name,
                     url: repo.url
                 };
-                return i;
+                return Repositorios;
             });
 
             const qtdRepo = result.splice(0, 3).sort((a, b) => {
