@@ -49,8 +49,7 @@ class CurriculoController {
             };
             return res.json(profile);
         } catch (error) {
-            console.log('Problemas na aplicação')
-            return (error);
+           return (error);
         }
     }
 }
